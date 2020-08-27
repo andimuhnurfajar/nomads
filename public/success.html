@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="frontend/Libraries/Bootstrap/css/bootstrap.css">
+   <link rel="stylesheet" href="frontend/Libraries/Xzoom/xzoom.css">
+   <link rel="stylesheet" href="frontend/Libraries/Gijgo/css/gijgo.min.css">
+   <link rel="stylesheet" href="frontend/Styles/main.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <!-- Navbar -->
+   <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+         <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+            <a href="index.html" class="navbar-brand">
+               <img src="frontend/Images/logo_nomads.png" alt="">
+            </a>
+         </div>
+         <ul class="navbar-nav mr-auto d-none d-lg-block">
+            <li>
+               <span class="text-muted">
+                  | &nbsp; Beyond the explorer of the world
+               </span>
+            </li>
+         </ul>
+      </nav>
+   </div>
+   <!-- Akhir Navbar -->
+
+   <!-- Main -->
+   <main>
+      <div class="section-success d-flex align-item-center">
+         <div class="col text-center">
+            <img src="frontend/Images/ic_mail.png" alt="" class="my-2">
+            <h1>Yay! Success</h1>
+            <p>We've sent you email for trip instruction <br> please read it as well</p>
+            <a href="index.html" class="btn btn-home-page mt-3 px-5">Home Page</a>
+         </div>
+      </div>
+   </main>
+   <!-- Akhhir Main -->
+
+   <!-- footer -->
+
+   <!-- Akhir footer -->
+
+
+
+
+
+
+
+
+
+   <script src="frontend/Libraries/Jquery/jquery-3.4.1.min.js"></script>
+   <script src="frontend/Libraries/Bootstrap/js/bootstrap.js"></script>
+   <script src="frontend/Libraries/Retina/retina.min.js"></script>
+   <script src="frontend/Libraries/Xzoom/xzoom.min.js"></script>
+   <script src="frontend/Libraries/Gijgo/js/gijgo.min.js"></script>
+   <script>
+      $(Document).ready(function () {
+         $('.xzoom, .xzoom-gallery').xzoom({
+            zoomWidth: 500,
+            title: false,
+            tint: '#333',
+            Xoffset: 15
+         });
+
+         $('.datepicker').datepicker({
+            uiLibrary: 'bootstrap4',
+            icons: {
+               rightIcon: '<img src="frontend/Images/Ic_Doe.png" />'
+            }
+         })
+      });
+   </script>
+</body>
+
+</html>
