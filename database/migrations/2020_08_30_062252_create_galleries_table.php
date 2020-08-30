@@ -13,7 +13,7 @@ class CreateGalleriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('gelleries', function (Blueprint $table) {
+        Schema::create('galleries', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->integer('travel_packages_id');
             $table->text('image');
@@ -29,6 +29,6 @@ class CreateGalleriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('gelleries');
+        Schema::dropIfExists('galleries');
     }
 }
