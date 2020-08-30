@@ -104,7 +104,7 @@
                   <h2>Trip Informations</h2>
                   <table class="trip-informations">
                       <tr>
-                        <th class="pt-2" width="50%">Date of Depature</th>
+                        <th class="pt-2" width="50%">Date of Departure</th>
                         <td class="pt-2" width="50%" class="text-right">
                             22 Aug, 2019
                       </tr>
